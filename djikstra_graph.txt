@@ -1,0 +1,54 @@
+Djikstra's test graph (Computerphile)
+s a b c d e f g h i j k l 
+36
+s a 7
+a s 7
+s b 2
+b s 2
+a b 3
+b a 3
+a d 4
+d a 4
+d b 4
+b d 4
+b h 1
+h b 1
+d f 5
+f d 5
+h f 3
+f h 3
+h g 2
+g h 2
+g e 2
+e g 2
+s c 3
+c s 3
+c l 2
+l c 2
+i l 4
+l i 4
+l j 4
+j l 4
+i j 6
+j i 6
+i k 4
+k i 4
+j k 4
+k j 4
+k e 5
+e k 5
+
+Solution:
+S 0
+a 5
+b 2
+c 3
+d 6
+f 6
+g 5
+h 3
+i 9
+j 9
+k 12
+l 5
+e 7
