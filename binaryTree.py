@@ -84,8 +84,8 @@ class BsTree:
             else:
                 break
             
-            n+=1 #Increment the row number
-            level-=1 #Decrement the le
+            n*=2 #increase number of elements in row
+            level-=1 #Decrement the level
         return out
         
     #Mutators
